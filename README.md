@@ -18,17 +18,20 @@ Está pensado como base para un mini catálogo / e‑commerce sencillo, donde lu
 - 💰 Precios formateados en pesos colombianos usando `toLocaleString('es-CO')` en frontend.  
 - 📱 Diseño responsive integrado al layout del dashboard JcDuroDashBoard.  
 
+---
+
 ## 🔢 Paginación
 
 En este módulo la lógica de paginación se maneja en frontend (vanilla JS) sobre el listado que devuelve la API.  
 Si tu proyecto ya tiene una función `loadItem()` para paginar, aquí es donde se conecta con los productos de `get_productos_neon.php`; en caso contrario, este módulo queda listo para mostrar todos los productos en una sola página y se puede ampliar después para limitar ítems por página.
 
+---
 
 ## 🖼️ Vista previa
 
 ![Productos_Carrito_Neon](preview_prod.gif)
 
---- 
+---
 
 ## 🚀 Demo
 [Productos_Carrito_Neon](https://jcduro.bexartideas.com/proyectos/dashjc/product01/prod.php)
@@ -114,6 +117,13 @@ Haz un fork → PR y listo.
 
 --- 
 
+🛠️ Stack y tecnologías
+Backend: PHP 8.x con PDO (MySQL). Base de datos: MySQL / MariaDB. Frontend: HTML5, CSS3 (neon UI), JavaScript ES6. 
+Iconos: Font Awesome (para integrar con el dashboard si se desea). 
+Pagina de imagenes para tu BD en la siguiente Pag: https://www.thiings.co/things
+
+--- 
+
 ## 📄 Licencia
 Libre, usalo como quieras
 <div align="center">
@@ -121,5 +131,4 @@ Libre, usalo como quieras
 </div>
 
 
-```md
 
