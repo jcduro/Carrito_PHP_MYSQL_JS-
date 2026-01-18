@@ -130,10 +130,12 @@ Haz un fork → PR y listo.
 
 --- 
 
-🛠️ Stack y tecnologías
-Backend: PHP 8.x con PDO (MySQL). Base de datos: MySQL / MariaDB. Frontend: HTML5, CSS3 (neon UI), JavaScript ES6. 
-Iconos: Font Awesome (para integrar con el dashboard si se desea). 
-Pagina de imagenes para tu BD en la siguiente Pag: https://www.thiings.co/things
+## 🧱 Stack Tecnológico
+
+- **Frontend:** HTML5, CSS3, JavaScript Vanilla.
+- **Backend:** PHP 7+ con PDO.
+- **Base de datos:** MySQL (`productos_neon`).
+- **Formato de datos:** JSON para comunicación frontend ↔ backend.
 
 --- 
 
