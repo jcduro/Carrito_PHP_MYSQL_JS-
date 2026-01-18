@@ -44,6 +44,18 @@ Si tu proyecto ya tiene una función `loadItem()` para paginar, aquí es donde s
 
 ---
 
+## 🗃️ Conexion
+
+```text
+$DB_HOST = 'localhost';
+$DB_NAME = 'productos_neon';
+$DB_USER = 'tu_usuario';
+$DB_PASS = 'tu_password';
+$DB_CHAR = 'utf8mb4';
+```
+
+---
+
 ## 🗃️ Base de datos
 
 - 🧱 Tabla de productos en MySQL (ejemplo: `productos`), con campos típicos como nombre, precio, descripción y estado 
