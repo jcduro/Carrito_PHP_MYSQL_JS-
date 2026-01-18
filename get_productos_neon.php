@@ -19,7 +19,7 @@
 // get_productos_neon.php
 header('Content-Type: application/json; charset=utf-8');
 
-require_once __DIR__ . "/../../../conexion/conexion.php";
+require_once __DIR__ . "/conexion.php";
 
 try {
     $sql = "SELECT codigo, nombre, precio, cantidad, img
