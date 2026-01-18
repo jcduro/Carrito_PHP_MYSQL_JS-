@@ -1,13 +1,13 @@
 ## 🟦 Módulo Product01 - Carrito
 
-Módulo de catálogo de productos integrado al **dashboard** JcDuroDashBoard, con tarjetas estilo neón, paginación y vista de detalle básica para cada producto [conversation_history:7][web:8].
+Módulo de catálogo de productos integrado al **dashboard** JcDuroDashBoard, con tarjetas estilo neón, paginación y vista de detalle básica para cada producto.
 
 ---
 
 ## 📌 Descripción
 
-Este módulo `product01` muestra un listado de productos desde la base de datos y los presenta dentro del layout del dashboard, manteniendo la estética azul neón característica de JcDuroDashBoard [conversation_history:6][web:14].  
-Está pensado como base para un mini catálogo / e‑commerce sencillo, donde luego se puede conectar carrito y pedidos [conversation_history:6][web:10].
+Este módulo `product01` muestra un listado de productos desde la base de datos y los presenta dentro del layout del dashboard, manteniendo la estética azul neón característica de JcDuroDashBoard.
+Está pensado como base para un mini catálogo / e‑commerce sencillo, donde luego se puede conectar carrito y pedidos. 
 
 ---
 
