@@ -1,8 +1,6 @@
-## 🟦 Módulo Product01 - cARRITO
+## 🟦 Módulo Product01 - Carrito
 
 Módulo de catálogo de productos integrado al **dashboard** JcDuroDashBoard, con tarjetas estilo neón, paginación y vista de detalle básica para cada producto [conversation_history:7][web:8].
-
-[🔙 Volver al Dashboard](https://jcduro.bexartideas.com/proyectos/dashjc/index.php)
 
 ---
 
@@ -35,7 +33,6 @@ Si tu proyecto ya tiene una función `loadItem()` para paginar, aquí es donde s
 ## 🚀 Demo
 [Productos_Carrito_Neon](https://jcduro.bexartideas.com/proyectos/dashjc/product01/prod.php)
 
-
 ---
 
 ## 📊 Lenguajes y Herramientas
@@ -44,12 +41,10 @@ Si tu proyecto ya tiene una función `loadItem()` para paginar, aquí es donde s
 
 ---
 
-
 ## 🗃️ Base de datos
 
 - 🧱 Tabla de productos en MySQL (ejemplo: `productos`), con campos típicos como nombre, precio, descripción y estado 
 - 🔗 El módulo `prod.php` consulta esta tabla y arma las tarjetas dentro del dashboard usando tu conexión actual (Hostinger / PDO o mysqli, según el proyecto) 
-
 
 --
 -- Estructura de tabla para la tabla `productos_neon`
@@ -94,6 +89,25 @@ INSERT INTO `productos_neon` (`id`, `codigo`, `nombre`, `precio`, `cantidad`, `i
 
 ---
 
+## 🗃️ Archivos
+
+```text
+
+producy/
+    └── product01/
+        ├── prod.php                 # Vista principal del catálogo neon dentro del dashboard
+        ├── get_productos_neon.php   # Endpoint JSON que devuelve los productos activos
+        ├── img/                     # Imágenes de productos
+        │   ├── img01.png
+        │   ├── img02.png
+        │   └── ...
+        ├── css/
+        │   └── prod.css        # Estilos neon y layout del listado + carrito (si lo separas)
+        └── js/
+            └── prod.js         # Script con fetch, render de tarjetas y carrito lateral
+
+```
+
 ## 🤝 Contribuir
 ¡Las mejoras son bienvenidas!
 Haz un fork → PR y listo.
@@ -105,9 +119,6 @@ Libre, usalo como quieras
 <div align="center">
   Hecho con 💙 y neones
 </div>
-
-
-
 
 
 ```md
