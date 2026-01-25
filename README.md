@@ -145,5 +145,9 @@ Libre, usalo como quieras
   Hecho con 💙 y neones
 </div>
 
+---
+
+## ⭐ Si te gustó este proyecto, no olvides dejar una estrella en GitHub!
+
 
 
